@@ -6,7 +6,7 @@ To test my implementation, I make use of dataset `fashion-mnist` [^1], which is 
 
 `python run_fashionMNIST.py --epochs 150 --batch_size 1024 --lr 0.1 --dropout 0.05 --weight_decay 0.00001 -l 512 256 128 64 10`
 
-which will train your MLP with four hidden layers of size `512`, `256`, `128` and `64`, using dropout of $0.05$ and weight decay of $10^{-5}$, producing accuracy and loss curves such as these ones:
+which will train your MLP with four hidden layers of size `512`, `256`, `128` and `64`, using dropout of $0.05$ and weight decay of <img src="https://render.githubusercontent.com/render/math?math=10^{-5}">, producing accuracy and loss curves such as these ones:
 
 ![](plots/Training-Validation_Accuracy.png)
 ![](plots/Training-Validation_Loss.png)
